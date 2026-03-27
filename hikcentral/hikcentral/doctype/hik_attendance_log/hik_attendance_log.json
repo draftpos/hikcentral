@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-03-27 12:11:05.440721",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employeeid",
+  "persongroup",
+  "accesstime",
+  "devicename",
+  "capturedpictureurl",
+  "column_break_djmd",
+  "personname",
+  "cardnumber",
+  "logtimestamp",
+  "deviceserialno",
+  "direction",
+  "column_break_snby",
+  "firstname",
+  "accessdatetime",
+  "authenticationtype",
+  "resourcename",
+  "authenticationresult",
+  "column_break_ssmi",
+  "lastname",
+  "accessdate",
+  "readername",
+  "attendancestatus",
+  "maskwearingstatus"
+ ],
+ "fields": [
+  {
+   "fieldname": "employeeid",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "personname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Person Name"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "persongroup",
+   "fieldtype": "Data",
+   "label": "Person Group"
+  },
+  {
+   "fieldname": "cardnumber",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Card Number"
+  },
+  {
+   "fieldname": "accessdatetime",
+   "fieldtype": "Data",
+   "label": "Access Date Time"
+  },
+  {
+   "fieldname": "accessdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Access Date"
+  },
+  {
+   "fieldname": "accesstime",
+   "fieldtype": "Time",
+   "label": "Access Time"
+  },
+  {
+   "fieldname": "logtimestamp",
+   "fieldtype": "Data",
+   "label": "Log Timestamp"
+  },
+  {
+   "fieldname": "authenticationresult",
+   "fieldtype": "Data",
+   "label": "Authentication Result"
+  },
+  {
+   "fieldname": "authenticationtype",
+   "fieldtype": "Data",
+   "label": "Authentication Type"
+  },
+  {
+   "fieldname": "devicename",
+   "fieldtype": "Data",
+   "label": "Device Name"
+  },
+  {
+   "fieldname": "deviceserialno",
+   "fieldtype": "Data",
+   "label": "Device Serial No"
+  },
+  {
+   "fieldname": "resourcename",
+   "fieldtype": "Data",
+   "label": "Resource Name"
+  },
+  {
+   "fieldname": "readername",
+   "fieldtype": "Data",
+   "label": "Reader Name"
+  },
+  {
+   "fieldname": "capturedpictureurl",
+   "fieldtype": "Small Text",
+   "label": "Captured Picture URL"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Direction",
+   "options": "In\nOut"
+  },
+  {
+   "fieldname": "maskwearingstatus",
+   "fieldtype": "Data",
+   "label": "Mask Wearing Status"
+  },
+  {
+   "fieldname": "attendancestatus",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Attendance Status"
+  },
+  {
+   "fieldname": "column_break_djmd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_snby",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ssmi",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-27 12:23:10.682103",
+ "modified_by": "Administrator",
+ "module": "Hikcentral",
+ "name": "Hik Attendance Log",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
