@@ -247,3 +247,9 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+scheduler_events = {
+    "all": [
+        "hikcentral.hikcentral.doctype.hik_attendance_log.hik_attendance_log.sync_from_attendancelogs"
+    ],
+}
